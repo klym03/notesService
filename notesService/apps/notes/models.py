@@ -4,7 +4,9 @@ from django.db import models
 # notes/models.py
 from django.db import models
 
-class Note(models.Model):
+# notes/models.py
+
+class Note1(models.Model):
     title = models.CharField(max_length=255)
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
@@ -14,6 +16,7 @@ class Note(models.Model):
         return self.title
 
     class Meta:
-        app_label = 'notes_service'
+        app_label = 'notes'
+
 
 

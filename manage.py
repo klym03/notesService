@@ -2,7 +2,8 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-print(os.path.dirname(__file__))
+
+# Your Django model or other imports here
 
 def main():
     """Run administrative tasks."""
