@@ -1,8 +1,7 @@
 import requests
 
-BASE_URL = "http://localhost:8000/api/notes/"  # Замените на ваш реальный URL
 
-
+BASE_URL = "http://localhost:8000/api/notes/"
 def get_notes():
     response = requests.get(BASE_URL)
 
